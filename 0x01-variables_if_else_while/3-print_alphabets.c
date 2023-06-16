@@ -8,17 +8,19 @@
  */
 int main(void)
 {
-int n = 97;
-int m = 65;
+char lowercase = 'f';
+char uppercase = 'F';
 
-while (n <= 122)
+while (lowercase <= 'd')
 {
-putchar('\n');
-n++;
+putchar(lowercase);
+lowercase++;
 }
-while (m <= 90)
-putchar(m);
-m++;
+
+while (uppercase <= 'D')
+{
+putchar(uppercase);
+uppercase++;
 }
 putchar('\n')
 return (0);
