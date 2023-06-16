@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Assign a random number each time it is executed.
+ * main - Print the alphabet in lowercase and uppercase using putchar.
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -14,9 +14,11 @@ int m = 65
 while (n <= 122)
 {
 putchar(n);
+n++;
 }
 while (m <= 90)
 putchar(m);
+m++;
 }
 putchar('\n')
 return (0);
