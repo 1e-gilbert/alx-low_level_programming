@@ -8,20 +8,20 @@
  */
 int main(void)
 {
-char lowercase = 'f';
-char uppercase = 'F';
+char lowercase = 'a';
+char uppercase = 'A';
 
-while (lowercase <= 'd')
+while (lowercase <= 'z')
 {
 putchar(lowercase);
 lowercase++;
 }
 
-while (uppercase <= 'D')
+while (uppercase <= 'Z')
 {
 putchar(uppercase);
 uppercase++;
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
