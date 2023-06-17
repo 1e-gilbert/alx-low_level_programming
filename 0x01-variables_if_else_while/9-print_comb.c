@@ -7,17 +7,18 @@
  */
 int main(void)
 {
-int n;
+putchar('0');
 
-for (n = 48; n <= 57; n++)
-putchar(n);
-
-if (n != 57) // check if it's not the last number (57)
+if ('0' <= '9')
 {
-putchar(',');
-putchar(' ');
+while (putchar(',') && putchar(' '))
+{
+putchar('0');
+if (putchar('9'))
+break;
 }
 }
+
 putchar('\n');
 return (0);
 }
