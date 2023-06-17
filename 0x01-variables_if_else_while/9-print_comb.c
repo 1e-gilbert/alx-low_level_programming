@@ -7,18 +7,14 @@
  */
 int main(void)
 {
-putchar('0');
+int n;
 
-if ('0' <= '9')
+for (n = 48; n <= 57; n++)
 {
-while (putchar(',') && putchar(' '))
-{
-putchar('0');
-if (putchar('9'))
-break;
+putchar(n);
+putchar(',');
+putchar(' ');
 }
-}
-
 putchar('\n');
 return (0);
 }
