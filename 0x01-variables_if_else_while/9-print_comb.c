@@ -3,7 +3,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints all possible combinations of single-digit numbers.
+ * Description: This program prints all possible combinations of single-digit numbers.
  *
  * Return: Always 0 (Success)
  */
@@ -18,9 +18,8 @@ if (n != 57) // check if it's not the last number (57)
 {
 putchar(',');
 putchar(' ');
-		}
+}
 }
 putchar('\n');
 return (0);
 }
-
