@@ -13,27 +13,16 @@ for (j = 0; j <= 9; j++)
 {
 result = i * j;
 
-if (result < 10 && j > 0)
-_putchar(' ');
-
 if (j > 0)
-_putchar(' ');
-
-if (result >= 10)
-{
-_putchar((result / 10) + '0');
-_putchar((result % 10) + '0');
-}
-else
-{
-_putchar(result + '0');
-}
-
-if (j < 9)
 {
 _putchar(',');
 _putchar(' ');
 }
+if (result < 10)
+_putchar(' ');
+else
+_putchar((result / 10) + '0');
+_putchar((result % 10) + '0');
 }
 _putchar('\n');
 }
